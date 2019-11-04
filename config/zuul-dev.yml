@@ -38,3 +38,11 @@ management:
 #    user-service: /user-service/**
 #    order-service: /order-service/**
   
+  
+spring:
+  rabbitmq:
+    host: 192.168.74.135
+    port: 5672
+    username: admin
+    password: admin
+  
